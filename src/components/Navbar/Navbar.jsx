@@ -1,12 +1,11 @@
 import React from 'react'
 import './Navbar.css'
-import logo from  '../../assets/logo.png';
 import signUpIcon from '../../assets/sign_up icon.png';
 
 const Navbar = () => {
   return (
     <div className='navbar'>
-      <i class="fa-brands fa-bitcoin fa-2xl"></i>
+      <i class="fa-brands fa-bitcoin fa-2xl" className='logo'></i>
       <ul>
         <li>Home</li>
         <li>Features</li>
