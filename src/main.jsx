@@ -10,8 +10,7 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <CoinContextProvider>
         <App />
-      </CoinContextProvider>
-    
+      </CoinContextProvider>    
     </BrowserRouter>
    
   </StrictMode>,

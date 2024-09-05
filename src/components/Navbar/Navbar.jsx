@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useContext} from 'react'
 import './Navbar.css'
 import signUpIcon from '../../assets/sign_up icon.png';
 import { CoinContext } from '../../context/CoinContext';
@@ -14,11 +14,11 @@ const Navbar = () => {
         break;
       }
       case "eur": {
-        setCurrency({name:"eur",symbol:"eu"});
+        setCurrency({name:"eur",symbol:"€"});
         break;
       }
       case "inr": {
-        setCurrency({name:"inr",symbol:"ru"});
+        setCurrency({name:"inr",symbol:"र"});
         break;
       }
       default: {
