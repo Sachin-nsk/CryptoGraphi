@@ -63,3 +63,7 @@
 .market-cap{
     text-align: right;
 }
+
+.table-layout:last-child{
+    border:none;
+}
