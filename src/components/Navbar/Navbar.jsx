@@ -2,6 +2,7 @@ import React,{useContext} from 'react'
 import './Navbar.css'
 import signUpIcon from '../../assets/sign_up icon.png';
 import { CoinContext } from '../../context/CoinContext';
+import {Link} from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -30,9 +31,13 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-      <i class="fa-brands fa-bitcoin fa-2xl" className='logo'></i>
+      <Link to={'/'}>
+       <i class="fa-brands fa-bitcoin fa-2xl" className='logo'></i>
+      </Link>
+      
       <ul>
-        <li>Home</li>
+        <Link to={'/'}><li>Home</li></Link>
+        
         <li>Features</li>
         <li>Pricing</li>
         <li>BLog</li>
