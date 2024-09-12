@@ -3,8 +3,8 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div>
-      <p className='footer'>Copyright reversed by CrptoGraphi</p>
+    <div className='footer'>
+      <p >Copyright reversed by CrptoGraphi</p>
     </div>
   )
 }

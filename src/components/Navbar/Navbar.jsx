@@ -4,6 +4,8 @@ import signUpIcon from '../../assets/sign_up icon.png';
 import { CoinContext } from '../../context/CoinContext';
 import {Link} from 'react-router-dom';
 
+
+
 const Navbar = () => {
 
   const {setCurrency} = useContext(CoinContext)
@@ -31,13 +33,12 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-      <Link to={'/'}>
-       <i class="fa-brands fa-bitcoin fa-2xl" className='logo'></i>
+      <Link to={'/'}>      
+       <i class="fa-brands fa-bitcoin fa-2xl" className='logo' ></i>
       </Link>
       
       <ul>
-        <Link to={'/'}><li>Home</li></Link>
-        
+        <Link to={'/'}><li>Home</li></Link>        
         <li>Features</li>
         <li>Pricing</li>
         <li>BLog</li>
