@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState ,useEffect} from 'react'
 import Chart from 'react-google-charts'
 
 const LineChart = ({historicalData}) => {
@@ -9,9 +9,9 @@ useEffect(()=>{
     let dataCopy =[ ["Date","Prices"]];
     if(historicalData.prices){
         historicalData.prices.map((item)=>{
-            dataCopy.push([`${new Date(item[0])}.toLocaleDateString().slice(0,-5)}`,item[1]])
+            dataCopy.push([`${new Date(item[0]).toLocaleDateString().slice(0,-5)}`,item[1]])
         })
-        setImmediate(dataCopy);
+        setData(dataCopy);
     }
 },[historicalData])
 
