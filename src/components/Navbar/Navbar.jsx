@@ -32,7 +32,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <Link to={'/'}>
-       <i class="fa-brands fa-bitcoin fa-2xl" className='logo'></i>
+       
       </Link>
       
       <ul>
