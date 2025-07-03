@@ -1,8 +1,73 @@
-# React + Vite
+# 💸 CryptoGraphi –  Real-Time Cryptocurrency Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CryptoGraphi is a real-time cryptocurrency tracking application built to help users monitor price movements of over 100+ digital assets. The platform offers dynamic charting, fast API integration, and a responsive design optimized for performance.
 
-Currently, two official plugins are available:
+Hosted on Netlify and powered by React.js and Chart.js, CryptoGraphi delivers a seamless user experience with live updates and interactive visualizations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+---
+## Screenshots
+
+![Home](https://github.com/user-attachments/assets/12f9acdf-9f8d-4f12-a732-869286d79c92)
+
+---
+
+## 🚀 Features
+
+-🧩 **Interactive Charts** – Dynamic visualizations of historical price data via Chart.js
+
+-🔍 **Cryptocurrency Search** – Quickly find and track your favorite tokens
+
+-📱 **Responsive UI** – Clean and adaptable design across devices
+
+-☁️ **Netlify Hosting** – Seamless CI/CD and global deployment
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer           | Tools & Services         |
+|-----------------|--------------------------|
+| Frontend        | React.js                 |
+| Charting        | Chart.js                 |
+| API Integration	| CoinGecko                |
+| Hosting         | Netlify                  |
+
+---
+
+## 🌐 Live Demo
+
+👉 [**Try CryptoGraphi Now**](https://sachin-cryptographi.netlify.app/)
+
+---
+
+## ⚙️ Setup & Installation
+
+### 1️⃣ Clone the repo
+```bash
+git clone https://github.com/Sachin-nsk/CryptoGraphi.git
+cd CryptoGraphi
+```
+
+### 2️⃣ Install dependencies
+```bash
+npm install
+```
+
+### 3️⃣ Set environment variables
+Create a .env file:
+```bash
+REACT_API_KEY= #CoinGecko api key
+```
+
+
+### 4️⃣ Start the app
+```bash
+npm start
+```
+
+## 🧑‍💻 Author
+Sachin Kumar N
+
+
+
